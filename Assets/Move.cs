@@ -9,10 +9,10 @@ public class Move : MonoBehaviour
     void Start()
     {
         knife = GameObject.FindGameObjectWithTag("Sword");
+        transform.LookAt(knife.transform);
     }
     void Update()
     {
-        transform.LookAt(knife.transform);
         transform.Translate(Vector3.forward * Time.deltaTime * speed);
     }
 }

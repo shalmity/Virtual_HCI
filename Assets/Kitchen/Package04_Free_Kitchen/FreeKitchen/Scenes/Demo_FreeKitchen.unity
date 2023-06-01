@@ -1071,7 +1071,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: cd6a718e29bbd7547b2de56f67e38b1c, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  food: {fileID: 4590684804414127574, guid: b71f3ddac78f67e49831e632a14662c7, type: 3}
+  food: {fileID: 7743618930851061208, guid: 0d845b5caf3944589ade97bc7971118b, type: 3}
   summonPos:
   - {fileID: 1631661025}
   - {fileID: 1128972228}
@@ -1353,7 +1353,7 @@ MonoBehaviour:
   scoreText: {fileID: 1222777671}
   audioSource: {fileID: 1647124302}
   clip: {fileID: 8300000, guid: a48e0bcda89ee4a4ba80f2ed409b19db, type: 3}
-  foodPrefab: {fileID: 2101042554251773878, guid: 2e1006601f06e70429cfe410d9aa883c, type: 3}
+  foodPrefab: {fileID: 7334098755715255590, guid: 62b03dc09f6b94275ada9c0d39e5b2d3, type: 3}
 --- !u!54 &1647124301
 Rigidbody:
   m_ObjectHideFlags: 0

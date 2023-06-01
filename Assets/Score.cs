@@ -26,7 +26,7 @@ public class Score : MonoBehaviour
         if (other.CompareTag("Target")) // 충돌한 오브젝트가 "Target" 태그를 가지고 있는지 확인
         {
             GameObject food = Instantiate(foodPrefab) as GameObject;
-            foodPrefab.transform.position = other.transform.position;
+            foodPrefab.transform.position = other.gameObject.transform.position;
             Destroy(other.gameObject);
 
             score++; // 점수 증가
